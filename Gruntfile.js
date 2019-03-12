@@ -5,13 +5,12 @@ module.exports=function(grunt){
           mergeIntoShorthands: false,
           roundingPrecision: -1      
         },
-    target: {
-    files: {
-          'rectangle.css': ['rectangle.css']
-   }
-             
-  }
-        }   
+        target: {
+          files: {
+           'rectangle.css': ['./rectangle.css']
+          }
+        }
+     }   
   });
 
   grunt.loadNpmTasks('grunt-contrib-cssmin');
