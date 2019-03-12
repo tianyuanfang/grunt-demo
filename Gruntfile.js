@@ -7,7 +7,7 @@ module.exports=function(grunt){
         },
         target: {
           files: {
-           'rectangle.css': ['./rectangle.css']
+           'dist/rectangle.css': ['./rectangle.css']
           }
         }
      }   
